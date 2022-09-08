@@ -4,7 +4,7 @@
  *
  * Description - using the main function
  * this program teachs How to use Put to print a statement 
- * Return: 0
+ * Return
  */
 
 int main(void)
