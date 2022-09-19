@@ -5,6 +5,7 @@
  * @n: Number
  * Return: If is a number, return 1 else return 0
  * **/
+
 int is_numerical(unsigned int n)
 {
 	return (n >= '0' &&  n <= '9');
@@ -15,6 +16,7 @@ int is_numerical(unsigned int n)
  * @s: String
  * Return: Return the num
  * **/
+
 int _atoi(char *s)
 {
 	unsigned int number, i;
