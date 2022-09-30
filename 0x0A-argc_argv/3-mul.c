@@ -17,6 +17,7 @@ int main(int argc, char *argv[])
 		printf("%s\n", error);
 		return (1);
 	}
+
 	for (a = 0; a < argc; a++)
 	{
 		b = atoi(*(argv + 1)); /**b is first number*/
