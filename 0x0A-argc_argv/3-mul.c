@@ -7,11 +7,11 @@
  * DESCRIPTION: outputs the product if 2 numbers
  * Return: Always (0) Success
  * **/
-
 int main(int argc, char *argv[])
 {
 	int a, b, c, product;
 	char error[10] = "Error";
+	
 	if (argc != 3)
 	{
 		printf("%s\n", error);
